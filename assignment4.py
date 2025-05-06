@@ -1,12 +1,12 @@
 #Task 1: Read a File and Handle Errors
-# try:
-#     file = open('sample.txt', 'r')
-#     print(file.read())
-#     file.close()
-# except FileNotFoundError:
-#     print("The File sample.txt not found")
-# finally:
-#     print()
+try:
+    file = open('sample.txt', 'r')
+    print(file.read())
+    file.close()
+except FileNotFoundError:
+    print("The File sample.txt not found")
+finally:
+    print()
 
 #Task 2: Write and Append Data to a File
 try:
